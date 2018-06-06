@@ -23,7 +23,7 @@ public class WykrywaczKroku {
     private float[] AccelZ = new float[ROZMIAR_ACCEL];
     private static final int ROZMIAR_ACCEL = 50;
     private static final int ROZMIAR_VELOCITY = 11;
-    private static final float THRESHOLDKROKU = 4f;
+    private static final float THRESHOLDKROKU = 10f;
     private static final int OPOZNIENIEKROKU = 250000000;
 
     private int LicznikAccel = 0;
