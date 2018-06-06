@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/general_category">
+
+        <EditTextPreference
+            android:id="@+id/dailyGoal"
+            android:summary="Enter your daily goal"
+            android:title="Daily goal"
+            android:inputType="number"
+            android:key="@string/dailyGoal_key" />
+
+        <ListPreference
+            android:summary="Select units"
+            android:entries="@array/units"
+            android:entryValues="@array/units_value"
+            android:title="Units"
+            android:key="@string/units_key" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/profile_category">
+
+        <EditTextPreference
+            android:id="@+id/firstName"
+            android:summary="Enter your first name"
+            android:title="First name"
+            android:inputType="textPersonName"
+            android:key="@string/firstName_key" />
+
+        <EditTextPreference
+            android:id="@+id/lastName"
+            android:summary="Enter your last name"
+            android:title="Last name"
+            android:inputType="textPersonName"
+            android:key="@string/lastName_key" />
+
+        <ListPreference
+            android:id="@+id/gender"
+            android:summary="Select your gender"
+            android:entries="@array/gender"
+            android:entryValues="@array/gender_value"
+            android:title="Gender"
+            android:key="@string/gender_key" />
+
+        <EditTextPreference
+            android:id="@+id/dateOfBirth"
+            android:summary="Enter your date of birth"
+            android:title="Date of birth"
+            android:inputType="date"
+            android:key="@string/date_key" />
+
+        <EditTextPreference
+            android:id="@+id/height"
+            android:summary="Enter your height"
+            android:title="Height"
+            android:inputType="number"
+            android:key="@string/height_key" />
+
+        <EditTextPreference
+            android:id="@+id/weight"
+            android:summary="Enter your weight"
+            android:title="Weight"
+            android:inputType="number"
+            android:key="@string/weight_key" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/advanced_category">
+
+        <Preference
+            android:id="@+id/deleteData"
+            android:title="Delete data"
+            android:key="@string/deleteData_key"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

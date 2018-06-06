@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="units">s
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+
+    <string-array name="units_value">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+
+    <string-array name="gender">s
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="gender_value">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+</resources>
